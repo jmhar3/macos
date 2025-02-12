@@ -1,1 +1,9 @@
 @layer reset, base, tokens, recipes, utilities;
+
+:root {
+	--font-dot-gothic: "DotGothic16", sans-serif;
+}
+
+body {
+	font-family: "DotGothic16", sans-serif;
+}
