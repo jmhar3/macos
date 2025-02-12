@@ -1,6 +1,8 @@
 import type { Route } from "./+types/home";
 import { css } from "styled-system/css";
 import { Box, Stack } from "styled-system/jsx";
+import DesktopFiles from "~/components/desktopFiles";
+import Taskbar from "~/components/taskbar";
 import Window from "~/components/window";
 import { Button } from "~/recipes/button";
 
@@ -13,7 +15,11 @@ export function meta() {
 
 export default function Home() {
 	return (
-		<Box>
+		<Box h="100vh" bg="pink.50">
+			<DesktopFiles />
+
+			<Taskbar />
+
 			<Window heading="Basic Info">
 				<Stack px="5" py="3" align="center">
 					<h1>Hello, I am the Hackerman</h1>
