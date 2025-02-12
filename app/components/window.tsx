@@ -27,6 +27,7 @@ export default function Window(props: WindowProps) {
 						justify="space-between"
 						className="profile"
 						ref={nodeRef}
+						cursor="move"
 					>
 						<h1 color="blue.50">{props.heading}</h1>
 						<Flex gap="1">
