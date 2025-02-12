@@ -4,6 +4,8 @@ import { styled } from "styled-system/jsx";
 const buttonStyle = cva({
 	base: {
 		px: "1.5",
+		pb: "1",
+		pr: "2.5",
 		bg: "blue.50",
 		w: "fit-content",
 		color: "sky.900",
