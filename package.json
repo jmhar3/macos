@@ -11,12 +11,14 @@
   },
   "dependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@fontsource/dotgothic16": "^5.1.1",
     "@react-router/node": "^7.1.5",
     "@react-router/serve": "^7.1.5",
     "autoprefixer": "^10.4.20",
     "isbot": "^5.1.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-draggable": "^4.4.6",
     "react-router": "^7.1.5"
   },
   "devDependencies": {
